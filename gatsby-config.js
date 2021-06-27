@@ -29,6 +29,14 @@ module.exports = {
       },
     },
     `gatsby-plugin-gatsby-cloud`,
+    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-styled-components-dark-mode`,
+      options: {
+        light: require(`${__dirname}/src/styles/theme.js`).lightTheme,
+        dark: require(`${__dirname}/src/styles/theme.js`).darkTheme,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
