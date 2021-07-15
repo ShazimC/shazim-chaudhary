@@ -9,6 +9,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import SideNav from "./SideNav";
+import ScrollNav from "./ScrollNav";
 import "../styles/global.css";
 import { useContext } from "react";
 import { ThemeContext } from "styled-components";
@@ -27,11 +28,10 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className="layout">
+    <div className="layout" aria-label={data.site.siteMetadata.title}>
       <GlobalStyle theme={currentTheme}/>
       <SideNav/>
       <main className="content">{children}</main>
-      <SideNav/>
     </div>
   )
 }
