@@ -65,6 +65,176 @@ const IndexPage = () => (
         </li>
       </ol>
     </Section>
+    <Section id='fav3'>
+      <h1>My Favorite 3 Projects</h1>
+      <ol>
+        <li>
+          <a href='/projects'>Audio Streaming Filter: </a>
+          Desktop app that censors live streaming audio. - Juce, C++
+        </li>
+        <li>
+          <a href='/projects'>Voluntio: </a>A volunteerism mobile
+          app. - React Native, Firebase
+        </li>
+        <li>
+          <a href='/projects'>Raspberry Pi Wireless Printing Service: </a>
+          Made a wired printer a wireless one - Raspberry Pi & Python.
+        </li>
+      </ol>
+    </Section>
+    <Section id='fav3'>
+      <h1>My Favorite 3 Projects</h1>
+      <ol>
+        <li>
+          <a href='/projects'>Audio Streaming Filter: </a>
+          Desktop app that censors live streaming audio. - Juce, C++
+        </li>
+        <li>
+          <a href='/projects'>Voluntio: </a>A volunteerism mobile
+          app. - React Native, Firebase
+        </li>
+        <li>
+          <a href='/projects'>Raspberry Pi Wireless Printing Service: </a>
+          Made a wired printer a wireless one - Raspberry Pi & Python.
+        </li>
+      </ol>
+    </Section>
+    <Section id='fav3'>
+      <h1>My Favorite 3 Projects</h1>
+      <ol>
+        <li>
+          <a href='/projects'>Audio Streaming Filter: </a>
+          Desktop app that censors live streaming audio. - Juce, C++
+        </li>
+        <li>
+          <a href='/projects'>Voluntio: </a>A volunteerism mobile
+          app. - React Native, Firebase
+        </li>
+        <li>
+          <a href='/projects'>Raspberry Pi Wireless Printing Service: </a>
+          Made a wired printer a wireless one - Raspberry Pi & Python.
+        </li>
+      </ol>
+    </Section>
+    <Section id='fav3'>
+      <h1>My Favorite 3 Projects</h1>
+      <ol>
+        <li>
+          <a href='/projects'>Audio Streaming Filter: </a>
+          Desktop app that censors live streaming audio. - Juce, C++
+        </li>
+        <li>
+          <a href='/projects'>Voluntio: </a>A volunteerism mobile
+          app. - React Native, Firebase
+        </li>
+        <li>
+          <a href='/projects'>Raspberry Pi Wireless Printing Service: </a>
+          Made a wired printer a wireless one - Raspberry Pi & Python.
+        </li>
+      </ol>
+    </Section>
+    <Section id='fav3'>
+      <h1>My Favorite 3 Projects</h1>
+      <ol>
+        <li>
+          <a href='/projects'>Audio Streaming Filter: </a>
+          Desktop app that censors live streaming audio. - Juce, C++
+        </li>
+        <li>
+          <a href='/projects'>Voluntio: </a>A volunteerism mobile
+          app. - React Native, Firebase
+        </li>
+        <li>
+          <a href='/projects'>Raspberry Pi Wireless Printing Service: </a>
+          Made a wired printer a wireless one - Raspberry Pi & Python.
+        </li>
+      </ol>
+    </Section>
+    <Section id='fav3'>
+      <h1>My Favorite 3 Projects</h1>
+      <ol>
+        <li>
+          <a href='/projects'>Audio Streaming Filter: </a>
+          Desktop app that censors live streaming audio. - Juce, C++
+        </li>
+        <li>
+          <a href='/projects'>Voluntio: </a>A volunteerism mobile
+          app. - React Native, Firebase
+        </li>
+        <li>
+          <a href='/projects'>Raspberry Pi Wireless Printing Service: </a>
+          Made a wired printer a wireless one - Raspberry Pi & Python.
+        </li>
+      </ol>
+    </Section>
+    <Section id='fav3'>
+      <h1>My Favorite 3 Projects</h1>
+      <ol>
+        <li>
+          <a href='/projects'>Audio Streaming Filter: </a>
+          Desktop app that censors live streaming audio. - Juce, C++
+        </li>
+        <li>
+          <a href='/projects'>Voluntio: </a>A volunteerism mobile
+          app. - React Native, Firebase
+        </li>
+        <li>
+          <a href='/projects'>Raspberry Pi Wireless Printing Service: </a>
+          Made a wired printer a wireless one - Raspberry Pi & Python.
+        </li>
+      </ol>
+    </Section>
+    <Section id='fav3'>
+      <h1>My Favorite 3 Projects</h1>
+      <ol>
+        <li>
+          <a href='/projects'>Audio Streaming Filter: </a>
+          Desktop app that censors live streaming audio. - Juce, C++
+        </li>
+        <li>
+          <a href='/projects'>Voluntio: </a>A volunteerism mobile
+          app. - React Native, Firebase
+        </li>
+        <li>
+          <a href='/projects'>Raspberry Pi Wireless Printing Service: </a>
+          Made a wired printer a wireless one - Raspberry Pi & Python.
+        </li>
+      </ol>
+    </Section>
+    <Section id='fav3'>
+      <h1>My Favorite 3 Projects</h1>
+      <ol>
+        <li>
+          <a href='/projects'>Audio Streaming Filter: </a>
+          Desktop app that censors live streaming audio. - Juce, C++
+        </li>
+        <li>
+          <a href='/projects'>Voluntio: </a>A volunteerism mobile
+          app. - React Native, Firebase
+        </li>
+        <li>
+          <a href='/projects'>Raspberry Pi Wireless Printing Service: </a>
+          Made a wired printer a wireless one - Raspberry Pi & Python.
+        </li>
+      </ol>
+    </Section>
+    <Section id='fav3'>
+      <h1>My Favorite 3 Projects</h1>
+      <ol>
+        <li>
+          <a href='/projects'>Audio Streaming Filter: </a>
+          Desktop app that censors live streaming audio. - Juce, C++
+        </li>
+        <li>
+          <a href='/projects'>Voluntio: </a>A volunteerism mobile
+          app. - React Native, Firebase
+        </li>
+        <li>
+          <a href='/projects'>Raspberry Pi Wireless Printing Service: </a>
+          Made a wired printer a wireless one - Raspberry Pi & Python.
+        </li>
+      </ol>
+    </Section>
   </Layout>
 )
 

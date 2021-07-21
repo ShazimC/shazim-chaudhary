@@ -168,31 +168,53 @@ const SocialLink = styled.a`
 `
 
 const NavTab = styled.a`
-    font-size: 23px;
-    padding: 15px;
-    margin: 5px 0;
-    color: rgb(${props => props.theme.global.color});
-    :hover {
-      color: rgb(${props => props.theme.global.link});
+  font-size: 23px;
+  padding: 15px;
+  margin: 5px 0;
+  color: rgb(${props => props.theme.global.color});
+  :hover {
+    color: rgb(${props => props.theme.global.link});
+  }
+  ${({ to, pathname, theme }) => {
+    const selected = to === pathname
+    if (selected) {
+      return css`
+        border-bottom: 2px solid rgb(${theme.global.link});
+        color: rgb(${theme.global.link});
+      `
     }
-    ${({ to, pathname, theme }) => {
-      const selected = to === pathname
-      if (selected) {
-        return css`
-          border-bottom: 2px solid rgb(${theme.global.link});
-          color: rgb(${theme.global.link});
-        `
-      }
-    }}
-  `
+  }}
+`
 
-export default function SideNav () {
+const SideNavBar = styled.nav`
+  background-color: rgb(${props => props.theme.global.bg2});
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  height: 100%;
+  width: 21.5%;
+  overflow: hidden;
+  align-items: center;
+  border-right: 1px solid rgb(${props => props.theme.global.border});
+  left: 0;
+  z-index: 1;
+  transition: 0.2s;
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+    /* Styles */
+    transform: ${({ nav }) => (nav ? 'translateX(0%)' : 'translateX(-100%)')};
+    border: none;
+    width: 80%;
+  }
+`
+
+export default function SideNav ({ nav }) {
   const { isDark, toggleDark } = useStyledDarkMode()
   const { pathname } = useLocation()
   return (
-    <nav className="sideNav">
+    <SideNavBar nav={nav}>
       <ThemeButton onClick={() => toggleDark()}>
-        {isDark ? <IconSun/> : <IconMoon/>}
+        {isDark ? <IconSun /> : <IconMoon />}
       </ThemeButton>
       <NavContent>
         <Avatar src='https://avatars.githubusercontent.com/u/35382434?s=400&u=14f4068a742462707889dc6748c372d2bc57a402&v=4' />
@@ -225,6 +247,6 @@ export default function SideNav () {
           </SocialLink>
         </SocialsContainer>
       </NavContent>
-    </nav>
+    </SideNavBar>
   )
 }

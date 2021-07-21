@@ -81,44 +81,25 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     flex-direction: row;
     height: 100%;
-  }
-
-  nav {
-    background-color: rgb(${props => props.theme.global.bg2});
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    height: 100%;
-    width: 20%;
-  }
-
-  nav.sideNav {
-    align-items: center;
-    border-right: 1px solid rgb(${props => props.theme.global.border});
-    left: 0;
-  }
-
-  nav.scrollNav {
-    align-items: flex-end;
-    border-right: 1px solid rgb(${props => props.theme.global.border});
-    left: 0;
-    justify-content: center;
+    overflow: hidden;
   }
 
   .content {
     background-color: rgb(${props => props.theme.global.bg});
     display: flex;
     flex-direction: column;
+    padding: 20px;
     margin-left: 22.5%;
     height: 100%;
+    overflow: auto;
   }
   
   a {
     color: rgb(${props => props.theme.global.link});
-  }
-  
-  a:hover {
-    color: rgb(${props => props.theme.global.linkHover});
+    transition: color 200ms;
+    :hover {
+      color: rgb(${props => props.theme.global.linkHover});
+    }
   }
 
   ::-webkit-scrollbar {
@@ -143,22 +124,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   /* Smartphones (portrait and landscape) ----------- */
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
     /* Styles */
-    nav.sideNav {
-      display: none;
-    }
-    .content {
-      margin: 0;
-    }
-  }
-
-  /* iPads (portrait and landscape) ----------- */
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
-    /* Styles */
-    nav.sideNav {
-      display: none;
-    }
     .content {
       margin: 0;
     }
